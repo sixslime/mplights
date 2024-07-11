@@ -4,5 +4,5 @@
 
 # Supports
 
-# Requires Implementation
+# Abstract?
 true / false

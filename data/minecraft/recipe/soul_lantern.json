@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "pattern": [
+      " C ",
+      "CTC",
+      " R "
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:copper_ingot"
+      },
+      "T": {
+        "item": "minecraft:soul_torch"
+      },
+      "R": {
+        "item": "minecraft:redstone"
+      }
+    },
+    "result": {
+      "id": "minecraft:lantern",
+      "count": 1
+    }
+  }
+  

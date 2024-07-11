@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smelting",
+    "category": "misc",
+    "ingredient": {
+      "item": "minecraft:stick"
+    },
+    "result": {
+      "id": "minecraft:torch"
+    },
+    "cookingtime": 100
+  }
+  
