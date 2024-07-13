@@ -1,5 +1,7 @@
 #>mplights:settings
 
+#> pack must be reloaded for settings to take effect
+
 #declare storage mplights:settings
 data modify storage mplights:settings PERSIST set value false
 
@@ -42,7 +44,7 @@ data modify storage mplights:settings torch.brightness set value {normal:{min:5,
 #-------------------
 # - 
 #-------------------
-data modify storage mplights:settings torch.burn_time_per_additional set value {normal:1200, soul: 4800}
+data modify storage mplights:settings torch.burn_time_per_additional set value {normal:1200, soul: 4200}
 #>-------------------
 
 #>-------------------
