@@ -11,7 +11,7 @@ data modify storage mplights:settings PERSIST set value false
 #-------------------
 # - 
 #-------------------
-data modify storage mplights:settings torch.burn_time set value {normal: 100, soul: 24000}
+data modify storage mplights:settings torch.burn_time set value {normal: 9600, soul: 24000}
 #>-------------------
 
 #>-------------------
@@ -32,7 +32,7 @@ data modify storage mplights:settings torch.burnout_percent set value {normal: 0
 # - torches start at max brightness, then once they are burning out, they linearly approach their min brightness.
 # - values must be between 1-15.
 #-------------------
-data modify storage mplights:settings torch.brightness set value {normal:{min:5, max:13}, soul:{min:3, max:10}}
+data modify storage mplights:settings torch.brightness set value {normal:{min:5, max:14}, soul:{min:4, max:10}}
 #>-------------------
 
 #>-------------------

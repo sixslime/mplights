@@ -12,8 +12,8 @@ execute if block ~ ~ ~ minecraft:light run function mplights:_/light/replace
 
 execute store result storage mplights:var light.with.level int 1 run scoreboard players get @s _mplights-light_level
 
-execute store result score *light.placed -mplights if block ~ ~ ~ #mplights:light_replaceable/water run function mplights:_/light/water/main with storage mplights:var light.with
-execute unless score *light.placed -mplights matches 1.. if block ~ ~ ~ #mplights:light_replaceable/air run function mplights:_/light/air/main with storage mplights:var light.with
+execute store result score *light.placed -mplights if block ~ ~ ~ minecraft:water[level=0] run function mplights:_/light/water/main with storage mplights:var light.with
+execute unless score *light.placed -mplights matches 1.. if block ~ ~ ~ #minecraft:air run function mplights:_/light/air/main with storage mplights:var light.with
 
 scoreboard players reset *light.placed -mplights
 scoreboard players operation @s _mplights-p_light_level = @s _mplights-light_level
