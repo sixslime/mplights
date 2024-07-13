@@ -3,6 +3,7 @@
 #declare storage mplights:settings
 data modify storage mplights:settings PERSIST set value false
 
+#>======[ torch ]======
 #>-------------------
 #> torch.burn_time : {normal: int, soul: int}
 #-------------------
@@ -35,11 +36,32 @@ data modify storage mplights:settings torch.brightness set value {normal:{min:2,
 #>-------------------
 
 #>-------------------
+#> torch.burn_time_per_additional : {normal: int, soul: int}
+#-------------------
+# ~ how long (in ticks) each torch past the first adds to a stack-of-torch's burn time.
+#-------------------
+# - 
+#-------------------
+data modify storage mplights:settings torch.burn_time_per_additional set value {normal:1200, soul: 4800}
+#>-------------------
+
+#>-------------------
+#> torch.extinguish_in_water : {normal: bool, soul: bool}
+#-------------------
+# ~ torches will extinguish when in a water block.
+#-------------------
+# - 
+#-------------------
+data modify storage mplights:settings torch.extinguish_in_water set value {normal:true, soul:false}
+#>-------------------
+#>====================
+
+#>-------------------
 #> campfire.start_unlit : true
 #-------------------
 # ~ modify campfire items to be unlit when placed.
 #-------------------
-# - 
+# - if changed, will only affect new campfire items.
 #-------------------
 data modify storage mplights:settings campfire.start_unlit set value true
 #>-------------------

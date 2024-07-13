@@ -19,7 +19,8 @@ execute unless data storage mplights:settings {PERSIST:true} run function mpligh
 # scoreboards
 scoreboard objectives add -mplights dummy
 scoreboard objectives add --mplights dummy
-scoreboard objectives add _mplights-timer dummy
+scoreboard objectives add mplights-burning_time dummy
+scoreboard objectives add _mplights-light_level dummy
 
 # tick
 schedule clear mplights:_/tick
