@@ -8,6 +8,7 @@ scoreboard players set *mplights load-status 1
 
 # settings
 execute unless data storage mplights:settings {PERSIST:true} run function mplights:settings
+function mplights:_/cache/generate
 
 #declare storage mplights:var
 #declare storage mplights:in
