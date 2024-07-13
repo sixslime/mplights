@@ -21,6 +21,7 @@ scoreboard objectives add -mplights dummy
 scoreboard objectives add --mplights dummy
 scoreboard objectives add mplights-burning_time dummy
 scoreboard objectives add _mplights-light_level dummy
+scoreboard objectives add _mplights-p_light_level dummy
 
 # tick
 schedule clear mplights:_/tick

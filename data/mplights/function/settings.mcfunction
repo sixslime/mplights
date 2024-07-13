@@ -32,7 +32,7 @@ data modify storage mplights:settings torch.burnout_percent set value {normal: 0
 # - torches start at max brightness, then once they are burning out, they linearly approach their min brightness.
 # - values must be between 1-15.
 #-------------------
-data modify storage mplights:settings torch.brightness set value {normal:{min:2, max:14}, soul:{min:1, max:10}}
+data modify storage mplights:settings torch.brightness set value {normal:{min:3, max:13}, soul:{min:2, max:10}}
 #>-------------------
 
 #>-------------------
