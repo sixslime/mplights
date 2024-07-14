@@ -1,0 +1,11 @@
+{
+    "criteria": {
+      "o": {
+        "trigger": "minecraft:inventory_changed"
+      }
+    },
+    "rewards": {
+      "function": "mplights:_/inventory/on_change"
+    }
+  }
+  
