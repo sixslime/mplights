@@ -2,24 +2,24 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "pattern": [
-    " C ",
-    "CTC",
-    " R "
+    "S",
+    "W",
+    "R"
   ],
   "key": {
-      "C": {
-        "item": "minecraft:copper_ingot"
+      "S": {
+        "item": "minecraft:string"
       },
-      "T": {
-        "item": "minecraft:torch"
+      "W": {
+        "item": "minecraft:honeycomb"
       },
       "R": {
         "item": "minecraft:redstone"
       }
   },
   "result": {
-    "id": "minecraft:lantern",
-    "count": 1
+    "id": "minecraft:candle",
+    "count": 2
   }
 }
   

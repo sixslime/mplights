@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "pattern": [
-    " C ",
-    "CTC",
-    " R "
+    "P",
+    "T",
+    "R"
   ],
   "key": {
-      "C": {
-        "item": "minecraft:copper_ingot"
+      "P": {
+        "item": "minecraft:carved_pumpkin"
       },
       "T": {
         "item": "minecraft:torch"
@@ -18,7 +18,7 @@
       }
   },
   "result": {
-    "id": "minecraft:lantern",
+    "id": "minecraft:jack_o_lantern",
     "count": 1
   }
 }
