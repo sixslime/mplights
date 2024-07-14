@@ -20,7 +20,7 @@ scoreboard players operation *x -mplights -= *cache.min_brightness.soul --mpligh
 scoreboard players operation *cache.fade_segment.soul --mplights = *cache.burnout.soul --mplights
 scoreboard players operation *cache.fade_segment.soul --mplights /= *x -mplights
 
-execute store result score *cache.time_per_add.normal --mplights run data get storage mplights:settings torch.burn_time_per_additional.normal
-execute store result score *cache.time_per_add.soul --mplights run data get storage mplights:settings torch.burn_time_per_additional.soul
+execute store result score *cache.stack_divisor.normal --mplights run data get storage mplights:settings torch.burn_time_per_additional.normal
+execute store result score *cache.stack_divisor.soul --mplights run data get storage mplights:settings torch.burn_time_per_additional.soul
 
 scoreboard players reset *x -mplights

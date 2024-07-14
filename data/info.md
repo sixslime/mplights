@@ -13,3 +13,13 @@ false
 - torch light blocks will replace `#minecraft:air`, but will set it back be `minecraft:air`, regardless of air type it replaced.
 - torch light blocks underwater can ONLY replace `minecraft:water[level=0]`. this really cant be changed.
 - related to the above issues, torches permanently will destroy `light` blocks they pass through.
+
+# TODO
+- dynamic stacking
+    * 2 torches on the same block on on the ground will stack.
+    * the burn time for this torch formula is:
+        - t1: burn time of longer torch
+        - t2: burn time of shorter torch
+        - m: max burn time of torch
+        - a: time per additional setting
+    * t = t1 + ((t2 / m) * a)
