@@ -27,4 +27,7 @@ execute store result score *cache.stack_divisor.soul --mplights run data get sto
 data modify storage mplights:data _.cache.items.recoverable_torch set value {"minecraft:custom_data":{_:true, __:true, mplights:{_:{torch:{recoverable:true}}}}, "minecraft:rarity":"uncommon", "minecraft:item_name":'[{"text":"Slightly Burnt Torch","color":"gold"}]', "minecraft:lore":['[{"text":"Recoverable", "color":"dark_gray","italic":false}]']}
 data modify storage mplights:data _.cache.items.burnt_torch set value {"minecraft:custom_data":{_:true, __:true, mplights:{_:{torch:{recoverable:false}}}}, "minecraft:rarity":"uncommon", "minecraft:item_name":'[{"text":"Burnt Torch","color":"red"}]', "minecraft:lore":['[{"text":"Unrecoverable", "color":"dark_gray","italic":false}]']}
 
+execute store result score *cache.extinguish_in_water.normal --mplights run data get storage mplights:settings torch.extinguish_in_water.normal
+execute store result score *cache.extinguish_in_water.soul --mplights run data get storage mplights:settings torch.extinguish_in_water.soul
+
 scoreboard players reset *x -mplights
