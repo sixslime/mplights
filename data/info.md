@@ -8,6 +8,9 @@
 # Abstract?
 false
 
+# SNAPSHOT
+- update all attribute ids
+
 # Issues
 - block reach is set to 0 when holding torch, meaning offhand functionality is broken.
     - item attributes are delayed, so placing a torch is still possible if done quickly after switching to the torch.
