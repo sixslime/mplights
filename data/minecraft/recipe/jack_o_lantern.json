@@ -7,15 +7,9 @@
     "R"
   ],
   "key": {
-      "P": {
-        "item": "minecraft:carved_pumpkin"
-      },
-      "T": {
-        "item": "minecraft:torch"
-      },
-      "R": {
-        "item": "minecraft:redstone"
-      }
+      "P": "minecraft:carved_pumpkin",
+      "T": "minecraft:torch",
+      "R": "minecraft:redstone"
   },
   "result": {
     "id": "minecraft:jack_o_lantern",

@@ -7,15 +7,9 @@
     " R "
   ],
   "key": {
-      "C": {
-        "item": "minecraft:copper_ingot"
-      },
-      "T": {
-        "item": "minecraft:torch"
-      },
-      "R": {
-        "item": "minecraft:redstone"
-      }
+      "C": "minecraft:copper_ingot",
+      "T": "minecraft:torch",
+      "R": "minecraft:redstone"
   },
   "result": {
     "id": "minecraft:lantern",

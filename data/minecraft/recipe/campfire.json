@@ -1,25 +1,18 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "category": "misc",
-    "pattern": [
-      "SSS",
-      "CCC",
-      "LLL"
-    ],
-    "key": {
-      "S": {
-        "item": "minecraft:stick"
-      },
-      "C": {
-        "tag": "minecraft:coals"
-      },
-      "L": {
-        "tag": "minecraft:logs"
-      }
-    },
-    "result": {
-      "id": "minecraft:campfire",
-      "count": 1
-    }
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "CCC",
+    "LLL"
+  ],
+  "key": {
+    "S": "minecraft:stick",
+    "C": "#minecraft:coals",
+    "L": "#minecraft:logs"
+  },
+  "result": {
+    "id": "minecraft:campfire",
+    "count": 1
   }
-  
+}

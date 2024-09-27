@@ -7,15 +7,9 @@
     "R"
   ],
   "key": {
-      "S": {
-        "item": "minecraft:string"
-      },
-      "W": {
-        "item": "minecraft:honeycomb"
-      },
-      "R": {
-        "item": "minecraft:redstone"
-      }
+      "S": "minecraft:string",
+      "W": "minecraft:honeycomb",
+      "R": "minecraft:redstone"
   },
   "result": {
     "id": "minecraft:candle",

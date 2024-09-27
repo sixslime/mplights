@@ -7,16 +7,10 @@
       "LLL"
     ],
     "key": {
-      "S": {
-        "item": "minecraft:stick"
-      },
-      "C": {
-        "tag": "minecraft:soul_fire_base_blocks"
-      },
-      "L": {
-        "tag": "minecraft:logs"
-      }
-    },
+    "S": "minecraft:stick",
+    "C": "#minecraft:soul_fire_base_blocks",
+    "L": "#minecraft:logs"
+  },
     "result": {
       "id": "minecraft:soul_campfire",
       "count": 1
